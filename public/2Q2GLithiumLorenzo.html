@@ -13,8 +13,56 @@
     <script src="script.js" defer></script>
 </head>
 
-    <style>  
-   
+    <style>   
+    .Table{
+      overflow-x: auto;
+    } 
+
+    table{
+      width: 60%;
+      border-collapse: collapse;
+      overflow-x: auto;
+    }
+    
+    th{
+      background-color: rgb(19, 20, 20);
+    }
+    td{
+       background-color: rgb(19, 20, 20);
+    }
+
+    table, th, td{
+      border: 3px solid rgb(250, 205, 57);
+      text-align: center;
+      font-size: 15px;
+      color:rgb(244, 242, 239);
+      padding: 8px;}
+
+   #Mond {
+    float: left;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+   }
+
+   #Archon{
+    flex: 0.25;
+    width: 60%;
+    height: 60%;
+    align-self: flex-start;
+    align-self: flex-end;
+    margin: 10px;
+    margin-right: auto;
+   }
+
+   #head{
+    margin-right: auto;
+    position: right;
+   }
+
+   #logo {
+    position: right;
+   }
     </style>
 
 <body>
@@ -34,6 +82,7 @@
        </div>
       <hr />
        <div class="wrapper">
+      
        <hr />  <img src="../Assets/venti.png" width="450" height="600" id="Archon"/>
         <div class="content">
         <h2> Mondstadt and Its Archon: </h2>
@@ -49,9 +98,9 @@
       </div>
          
       <div class="wrapper">
-        
+       
        <img src="../Assets/Mond.jpg" width="550" height="300" id="Mond"/>
-
+       
         <div class="content">
         <h2> Mondstadt's Lore and History: </h2>
         <p> Mondstadt is protected not only by its Archon, but by an order of knights called the Knights of Favonius (K.o.F)- founded by the heroine Vanessa with the blessing 
@@ -76,7 +125,8 @@
    
      
         <h2> The Characters of Mondstadt: </h2> 
-      
+       
+        <div class="Table"> 
         <table> 
         <tr>
            <th> Characters  </th>
@@ -171,15 +221,15 @@
         </tr>
         
        </table>
-      
+      </div>
        
        <footer>
-       <hr/>
+       <p> <span>&copy; 2025 Teyvat Guide | All Rights Reserved </span></p>
+       <hr />
        <h3> References: </h3>
        <p> Adria. (2025, August 23). Fantasy Landscape. Pinterest. <a href="https://ph.pinterest.com/pin/365143482310992458/"> https://ph.pinterest.com/pin/365143482310992458/ </a> </p>
        <p> Genshin Impact. (2022, October 21). Scenery and Sentiment: Mondstadt Edition | Genshin Impact [Video]. YouTube. <a href="https://www.youtube.com/watch?v=_XwlRU2lrPM"> https://www.youtube.com/watch?v=_XwlRU2lrPM </a> </p>
        <p> Wiki, C. T. G. I. (n.d.). Mondstadt/History. Genshin Impact Wiki. <a href="https://genshin-impact.fandom.com/wiki/Mondstadt/History"> https://genshin-impact.fandom.com/wiki/Mondstadt/History </a></p>
-       <hr /> <p> Copyright <span>&copy; Bernice Lorenzo </span></p>
        </footer>
 
      

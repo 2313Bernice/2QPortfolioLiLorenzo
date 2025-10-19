@@ -1,12 +1,11 @@
-body{
+    body{
       font-family: Genshin;
       font-size: 15px;
-      background-color: rgb(19, 20, 20);
       background-image: linear-gradient(to bottom, rgba(146, 226, 237, 0) 0%,rgb(19, 20, 20) 100%),
       linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgb(19, 20, 20) 110%), url(../Assets/dandelions.jpg);
       background-repeat: no-repeat;
-  
-    background-size: cover;
+      background-size: cover;
+      margin: 0;
     }
 
     table{
@@ -29,10 +28,6 @@ body{
       color:rgb(244, 242, 239);
       padding: 8px;}
 
-   caption{
-      caption-side: bottom;
-   }
-
    @font-face {
     font-family: Genshin;
     src: url(../Assets/zh-cn.ttf);
@@ -51,7 +46,7 @@ body{
     background-color: rgb(19, 20, 20);
     border-bottom: 2px solid rgb(250, 205, 57); 
     margin-bottom: 2rem;
-
+    margin-top: 0;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -86,24 +81,6 @@ body{
     text-shadow: 0 0 10px rgb(196, 242, 248);
    }
    
-   #Mond {
-    display: flex;
-    flex: 0.5;
-    margin: 1rem;
-    margin-left: auto;
-    right: 0;
-    
-   }
-
-   #Archon{
-    flex: 0.25;
-    width: 60%;
-    height: 60%;
-    align-self: flex-start;
-    align-self: flex-end;
-    margin: 10px;
-    margin-right: auto;
-   }
 
    #head{
     margin-right: auto;
@@ -113,7 +90,6 @@ body{
    #logo {
     position: right;
    }
-
    
   .wrapper{
     padding: 0 15px;
@@ -121,9 +97,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    gap: 2rem;
-    
-    
+    gap: 2rem; 
   }
 
   .header{
@@ -158,22 +132,29 @@ body{
   }
 
   a:link {
-  color: rgb(63, 156, 170);
-  background-color: transparent;
-  text-decoration: none;
-}
+    color: rgb(63, 156, 170);
+    background-color: transparent;
+    text-decoration: none;
+  }
 
-a:visited {
-  color:  rgb(63, 156, 170);
-  background-color: transparent;
-  text-decoration: none;
-}
+  a:visited {
+    color: rgb(63, 156, 170);
+    background-color: transparent;
+    text-decoration: none;
+  }
 
-a:hover {
-  color: rgb(250, 205, 57);
-  background-color: transparent;
-  text-decoration: underline;
-}
+  a:hover {
+    color: rgb(250, 205, 57);
+    background-color: transparent;
+    text-decoration: underline;
+   }
+
+   footer {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    font-size: 10px;
+   }
 
 
 
