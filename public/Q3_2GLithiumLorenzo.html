@@ -8,13 +8,13 @@
 
     <form>
       <fieldset>
-        <legend> Sign up for Clubs </legend>
+        <legend> Student Info </legend>
         <label for="student id"> Student ID: </label>
-        <input type="number" id="studentID" name="studentID" placeholder="00-0000-000">
+        <input type="number" id="studentID" name="studentID" placeholder="00-0000-000" required>
         <br>
 
         <label for="full name"> Full Name </label>
-        <input type="text" id="full name" name="full name" placeholder="LASTNAME, Firstname MI.">
+        <input type="text" id="full name" name="full name" placeholder="LASTNAME, Firstname MI." required>
         <br>
 
         <label for="birthday"> Birthday </label>
@@ -22,15 +22,18 @@
         <br>
 
         <label for="email"> Email Address: </label>
-        <input type="email" id="email" name="email" placeholder="youremail@email.com">
-        <br>
+        <input type="email" id="email" name="email" placeholder="youremail@email.com" required>
+        <br> 
+      </fieldset>
 
+      <fieldset>
+        <legend> Extra Info </legend>
         <label for="phone"> Mobile Phone: </label>
-        <input type="text" id="phone" name="phone" placeholder="00000000000">
+        <input type="text" id="phone" name="phone" placeholder="00000000000" required>
         <br>
 
         <label for="grlvl"> Grade Level </label>
-        <select name="grave level" id="grlvl">
+        <select name="grave level" id="grlvl" required>
             <option value="gr7"> Grade 7 </option>
             <option value="gr8"> Grade 8 </option>
             <option value="gr9"> Grade 9 </option>
@@ -40,15 +43,15 @@
         </select>
 
        <p> Intern or Extern? </p>
-       <input type="radio" id="intern" name="status" value="Intern">
+       <input type="radio" id="intern" name="status" value="Intern" required >
        <label for="intern"> Intern </label>
-       <input type="radio" id="extern" name="status" value="Extern">
+       <input type="radio" id="extern" name="status" value="Extern" required>
        <label for="extern"> Extern </label>
 
     <br>
 
        <label for="club"> Preferred Organization/Club</label>
-        <select name="club" id="org">
+        <select name="club" id="org" required>
             <option value="himig"> Himig Agham </option>
             <option value="sightlines"> Sightlines </option>
             <option value="munhwa"> Munhwa </option>
@@ -61,7 +64,7 @@
 
         <br>
         <label for="reason"> Why do you want to join? </label>
-        <textarea id="tArea" name="reason" placeholder="I want to join this club/organization because..."> </textarea>
+        <textarea id="tArea" name="reason"> </textarea>
         <br>
         
        <input type = "submit" value = "Submit form">
