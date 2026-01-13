@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello, World!</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title> HTML Forms </title>
+    <link rel="stylesheet" href="forms.css" />
   </head>
   <body>
 
     <form>
+      <fieldset>
+        <legend> Sign up for Clubs </legend>
         <label for="student id"> Student ID: </label>
-        <input type="number" id="studentID" name="studentID">
+        <input type="number" id="studentID" name="studentID" placeholder="00-0000-000">
         <br>
 
         <label for="full name"> Full Name </label>
-        <input type="text" id="full name" name="full name">
+        <input type="text" id="full name" name="full name" placeholder="LASTNAME, Firstname MI.">
         <br>
 
         <label for="birthday"> Birthday </label>
@@ -20,11 +22,11 @@
         <br>
 
         <label for="email"> Email Address: </label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email" placeholder="youremail@email.com">
         <br>
 
         <label for="phone"> Mobile Phone: </label>
-        <input type="text" id="phone" name="phone">
+        <input type="text" id="phone" name="phone" placeholder="00000000000">
         <br>
 
         <label for="grlvl"> Grade Level </label>
@@ -59,11 +61,13 @@
 
         <br>
         <label for="reason"> Why do you want to join? </label>
-        <textarea id="tArea" name="reason"> </textarea>
+        <textarea id="tArea" name="reason" placeholder="I want to join this club/organization because..."> </textarea>
         <br>
         
        <input type = "submit" value = "Submit form">
        <input type = "reset" value = "Reset">
+
+      </fieldset>
 
     </form>
 
