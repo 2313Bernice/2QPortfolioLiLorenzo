@@ -1,0 +1,11 @@
+fieldset{
+   
+}
+
+form{
+    margin: auto;
+    width:30%;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 1rem;
+}
