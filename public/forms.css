@@ -16,6 +16,15 @@ legend{
     color:  rgb(96, 96, 169);
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0ffcc;
+    }
+
 @font-face {
     font-family: Genshin;
     src: url(../Assets/zh-cn.ttf);
